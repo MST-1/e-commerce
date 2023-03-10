@@ -1,0 +1,105 @@
+@import url("https://capture-ui.netlify.app/css/components.css");
+/* @import url("https://raw.githubusercontent.com/MST-1/UI/main/db.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+/* Here it starts */
+
+
+
+/* here it ends */
+
+
+
+:root {
+  --primary-color: #24c0d8;
+  --primary-hover: #7942fa;
+  --primary-disabled: #c4b5fb;
+
+  --white: #fff;
+  --bg-color: #ebebeb;
+  --bg-secondary: #c0c0c0;
+
+  --black: #000;
+  --text-color: #1e1e1e;
+  --text-secondary: #2e2e2e;
+
+  --border-radius: 0.25rem;
+
+  --status-online: #00af00;
+  --status-offline: #808080;
+  --status-dnd: #ff0000;
+
+  --success-bg: #a3ff9b;
+  --success-color: #2bd825;
+  --success-hover: #17cf11;
+  --warning-bg: #fcf086;
+  --warning-color: #fdcf00;
+  --warning-hover: #f0d800;
+  --danger-bg: #ff9d9d;
+  --danger-color: #ff2c2c;
+  --danger-hover: #ee1e1e;
+
+  --heading-1: 48px;
+  --heading-2: 32px;
+  --heading-3: 24px;
+  --heading-4: 16px;
+  --heading-5: 8px;
+
+  --line-ht-1: 64px;
+  --line-ht-2: 40px;
+  --line-ht-3: 32px;
+  --line-ht-4: 24px;
+  --line-ht-5: 16px;
+  --box-shadow: 2px 2px 2px 0 var(--bg-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  color: var(--text-color);
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section.main-section {
+  flex-grow: 1;
+  margin-top: 1rem;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-primary:hover {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+
+button:active {
+  transform: translateY(1px);
+}
